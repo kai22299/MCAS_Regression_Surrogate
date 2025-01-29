@@ -58,3 +58,4 @@ data = pd.concat([data.drop(cat_cols, axis = 1), feature_engineering.oneHot(data
 
 #Test full pipeline function
 feat, tar = feature_engineering.executeFeatureEng(init_data)
+print(len(feat))
